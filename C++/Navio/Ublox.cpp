@@ -213,7 +213,7 @@ int UBXParser::decodeMessage(std::vector<double>& data)
                 break;
 
         case 274:
-                // ID for Nav-NAVNED messages is 0x0112 == 274
+                // ID for Nav-VelNED messages is 0x0112 == 274
 
                 // All the needed parameters are 4-byte numbers with little endianness.
                 // We know the current message and we want to update the info in the data vector.
